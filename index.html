@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Curso PWA - Marcos Peralta</title>
+    <!--Viewport Responsive-->
+    <meta name="viewport" content="width=device-with, initial-scale=1.0, 
+    maximum-scale=1.0, user-scalable=no"/>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <!-- Color de la aplicacion -->
+    <meta name="theme-color" content="#FB314E"/>
+
+    <!-- optimizacion para movil -->
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandhelFriendly" content="true" />
+
+    <!-- Meta etiquetas para dispositivos Apple -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="apple-touch-icon" href="img/favicon.png" />
+    <link rel="apple-touch-startup-image" href="img/favicon.png/>" />
+
+    <!--  Configuracion General PWA -->
+    <link rel="manifest" href="manifest.json"/>
+
+    <link rel="stylesheet" href="css/styles.css"/>
+    <!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <header id="main-header">
+        <div class="container">
+            <div id="logo">
+                <h1>Marcos Peralta WEB</h1>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li>
+                        <a href="#main-header">
+                            Inicio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#services">
+                            Servicios
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#videos">
+                            Videos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#footer">
+                            Contacto
+                        </a>
+                    </li>
+                </ul>
+            </div> <!-- END menu -->
+        </div> <!-- END CONTAINER-->
+    </header>
+    <div class="clearfix"></div>
+    <div id="slider">
+        <div class="container">
+            <h2>Desarrollador Web y Profesor</h2>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h2 class="subheader">Servicios</h2>
+            <div class="service">
+                <img src="img/1.png" />
+                <h3>Desarrollo web</h3>
+                <p>
+                    Ofrezco servicios de desarrollo web moderno con las mejores tecnologias y plataformas web
+                </p>
+            </div>
+            <div class="service">
+                <img src="img/2.png" />
+                <h3>Diseño web</h3>
+                <p>
+                    Diseño de sitios y aplicaciones web moderno, limpio y atractivo para tus clientes.
+                </p>
+            </div>
+            <div class="service">
+                <img src="img/3.png" />
+                <h3>Mentoria</h3>
+                <p>
+                    Puedo ser tu mentor o profesor para enseñarte desarrollo y programación web moderna
+                </p>
+            </div>
+        </div>
+    </div> <!-- end services-->
+    <div class="clearfix"></div>
+    <div id="videos">
+        <div class="container">
+            <h2 class="subheader">Videos</h2>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7EGLQHkb1IU" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <p>
+                    En este vídeo veremos como crear bases de datos con mongodb, como crear colecciones y documentos
+                    fácilmente.
+                </p>
+            </div>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/6AlP9OxFAtk" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <p>
+                    En este vídeo te voy a explicar los 16 acronimos más importantes que todo desarrollador debe
+                    conocer.
+
+                    Voy a revelar varias siglas que usan los programadores y que seguramente no conocías algunas de
+                    ellas.
+                </p>
+            </div>
+            <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/nfpUmJoB2Yk"
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <p>
+                    En este vídeo te digo las ventajas y las desventajas de los ordenadores portátiles o laptops gaming.
+                </p>
+            </div>
+        </div>
+    </div> <!-- end videos -->
+    
+    <div class="clearfix"></div>
+    <footer id="footer">
+        <div class="container">
+            <h2 class="subheader">Contacto</h2>
+            <p>Enviame un mensaje en cualquiera de estas redes sociales :)</p>
+            <ul id="networks">
+                <li>
+                    <a href="">
+                        <img src="img/twitter.png"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/facebook.png"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/instagram.png"/>
+                    </a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+    </footer>
+</body>
+
+</html>
